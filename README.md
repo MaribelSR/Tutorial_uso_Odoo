@@ -2,9 +2,9 @@
 
 <h1> 3.	Odoo </h1>
 A continuación, se dará a conocer el uso de Odoo, realizando la instalación en un servidor, y la instalación de varios módulos, configurándolos y cumplimentando algunos datos en ello. 
-Para la instalación de Odoo se recomendará una VirtualBox previamente descargada e instalada, donde se realizará la instalación. A continuación, se expondrá una serie de capturas donde se irá explicando por cada apartado, los pasos a seguir para una instalación, configuración y uso correctos para Odoo.
-  ------------
-  3.1.	Instalación de Odoo.
+Para la instalación de Odoo se recomendará una VirtualBox previamente descargada e instalada, donde se realizará la instalación. A continuación, se expondrá una serie de capturas donde se irá explicando por cada apartado, los pasos a seguir para una instalación, configuración y uso correctos para Odoo. </br> </br>
+
+  <h3>3.1.	Instalación de Odoo.</h3>
   
   3.1.1.	Tras haber iniciado nuestra VirtualBox (Oracle VirtualBox) en adelante mencionada en este documento como V.B., nos descargaremos el archivo “.ova” encontrado en: https://bitnami.com/stack/odoo/virtual-machine o descargado previamente. En la siguiente captura, una vez descargado se muestra donde se encuentra dicho archivo dentro de la localización marcada como "descargar" de nuestro dispositivo en uso. 
   
@@ -30,9 +30,9 @@ Para la instalación de Odoo se recomendará una VirtualBox previamente descarga
    
   3.1.11.	Asimismo,se clickea a Add, y se configuraría para poder visualizar todo el proceso en Odoo, en el idioma indicado, siendo en este caso, español. 
   
-  3.1.12.	Como se muestraría en el archvio adjunto de paso a paso, en la esquina superior al darle clic a guardar, ya estaría guardada la configuración elegida. 
+  3.1.12.	Como se muestraría en el archvio adjunto de paso a paso, en la esquina superior al darle clic a guardar, ya estaría guardada la configuración elegida. </br></br>
    
-  3.2.	Configuración de Odoo.
+  <h3> 3.2.	Configuración de Odoo. </h3>
  
   3.2.1.	Para llegar a configurar los datos principales con la información que se aporta en la tarea en este caso, sobre la “Academia de formación “Poniente””. Se da clic sobre “Usuarios y compañías” y se seleccionará “Compañías”, mostrándose en pantalla lo visualizado en la captura adjuntada dentro del archivo. Como se puede ver en el documento, de base aparece “My Company” y lo que se quiere es poder añadir una nueva, siendo así que se le da a “Nuevo”. 
    
@@ -48,9 +48,9 @@ Para la instalación de Odoo se recomendará una VirtualBox previamente descarga
   
   3.2.5.1.	Se iría nuevamente a la parte de “Ajustes” y se buscaría en las opciones generales, la opción de “Compañías” donde aparece “Configurar diseño de documento”. Se pincharía en esa opción.
   
-  3.2.5.2.	 Como se muestra en la captura (archivo adjunto), se tendría una ventana donde se vería el diseño del documento que aparecerá, pudiendo incluir un logotipo y, en este caso, el lema, que se ha asignado siendo este “una empresa nueva”. Para guardar, se daría a “Continuar” indicado en el extremo izquierdo del cuadro de configurar el diseño. 
+  3.2.5.2.	 Como se muestra en la captura (archivo adjunto), se tendría una ventana donde se vería el diseño del documento que aparecerá, pudiendo incluir un logotipo y, en este caso, el lema, que se ha asignado siendo este “una empresa nueva”. Para guardar, se daría a “Continuar” indicado en el extremo izquierdo del cuadro de configurar el diseño. </br></br>
    
-  3.3.	Creación de usuarios: 
+  <h3>3.3.	Creación de usuarios: </h3>
  
   3.3.1.	Seguidamente, para la creación de dos usuarios, se volverá a dar clic en “Usuarios y Compañía” y dándole en esta ocasión, a la opción “Usuarios”. Como se muestra en la siguiente captura (archivo adjunto), nos saldrá el listado de usuarios que están disponibles o que existen dentro de Odoo y, para la creación de nuevos se le dará en la esquina superior a “Nuevo”.
    
@@ -62,10 +62,10 @@ Para la instalación de Odoo se recomendará una VirtualBox previamente descarga
    
   3.3.5.	Como se puede visualizar en la captura de pantalla del archivo adjuntado, ya se tendría creado el segundo usuario, además, se muestra la forma de poder ir guardando manualmente si se quisiera, pudiendo señalar en el icono de la nube mostrada al lado del engranaje de opciones, del nombre de usuario.
   
-  3.3.6.	Tras los pasos anteriores, se puede volver a darle a “Usuarios” y se podrá ver finalmente, el listado de usuarios internos que se tiene creado.
-   
-  3.4.	Informe de productos: 
-  Para la propuesta de la tarea de este apartado correspondiente, se solicita la instalación del módulo inventario, crear tres productos diferentes (de mobiliario, por ejemplo: mesa, sillas, pizarras, …), generar un informe de productos creados y exportar dicho informe a una hoja de cálculo. Para todo esto, se mostrará los pasos a continuación: 
+  3.3.6.	Tras los pasos anteriores, se puede volver a darle a “Usuarios” y se podrá ver finalmente, el listado de usuarios internos que se tiene creado.</br></br>
+  
+  <h3> 3.4.	Informe de productos: </h3>
+ <i>Para la propuesta de la tarea de este apartado correspondiente, se solicita la instalación del módulo inventario, crear tres productos diferentes (de mobiliario, por ejemplo: mesa, sillas, pizarras, …), generar un informe de productos creados y exportar dicho informe a una hoja de cálculo. Para todo esto, se mostrará los pasos a continuación: </i> </br></br>
  
   3.4.1.	Se volvería a darle en la esquina superior al lado de “Ajustes” en el cuadrado, donde se da las opciones de “Aplicaciones” o propiamente “Ajustes”. Seleccionamos en este caso la opción que nos llevará a las aplicaciones. 
    
@@ -88,20 +88,20 @@ Para la instalación de Odoo se recomendará una VirtualBox previamente descarga
   
   3.4.10.	Para poder generar el informe en una hoja de cálculo, se le daría en el engranaje mostrado al lado de “Stock” y “Exportar todo”. 
   
-  3.4.11.	De esa manera, se nos descargaría un archivo en formato “.xlsx” siendo esta nuestra hoja de cálculo oportuna y requerida para el ejercicio, como se muestra en la captura (archivo adjunto), al abrir el archivo. 
+  3.4.11.	De esa manera, se nos descargaría un archivo en formato “.xlsx” siendo esta nuestra hoja de cálculo oportuna y requerida para el ejercicio, como se muestra en la captura (archivo adjunto), al abrir el archivo. </br></br>
   
-  3.5.	Peticiones de mantenimiento. 
-  Para este apartado, se pide instalar el módulo “Mantenimiento”, crear dos peticiones, una que esté en estado “En progreso” y otra, “Reparado. Además, de visualizar las peticiones en modo Kanban. Por ello, a continuación, se especificará los pasos a seguir con sus capturas correspondientes. 
+  <h3>3.5.	Peticiones de mantenimiento.</h3>
+  <i>Para este apartado, se pide instalar el módulo “Mantenimiento”, crear dos peticiones, una que esté en estado “En progreso” y otra, “Reparado. Además, de visualizar las peticiones en modo Kanban. Por ello, a continuación, se especificará los pasos a seguir con sus capturas correspondientes. </i></br></br>
  
-  3.5.1.	Instalar el módulo “Mantenimiento”.
+  <h4> 3.5.1.	Instalar el módulo “Mantenimiento”.</h4>
   
   3.5.1.1.	Para poder instalar el módulo de “Mantenimiento” se clickea en el cubo como anteriormente y se seleccionará “Aplicaciones”
   
   3.5.1.2.	Seguidamente, se buscaría “mantenimiento” y, una vez se haya encontrado el módulo, se le da clic a “Activar”. 
    
-  3.5.1.3.	Al igual que en el anterior paso, se cargará la página una vez que se haya activado el módulo, y se podrá acceder a éste pinchando directamente en el cubo y seleccionando la opción que se quiera. 
+  3.5.1.3.	Al igual que en el anterior paso, se cargará la página una vez que se haya activado el módulo, y se podrá acceder a éste pinchando directamente en el cubo y seleccionando la opción que se quiera. </br></br>
    
-  3.5.2.	 Crear dos peticiones, una que esté en estado “En progreso” y otra en estado “Reparado. 
+ <h4> 3.5.2.	 Crear dos peticiones, una que esté en estado “En progreso” y otra en estado “Reparado.</h4>
   
   3.5.2.1.	Para la creación de las peticiones, se le da a la opción que sale en la ventana principal de “Mantenimiento” de “0 Pendiente” al no tener ninguno activo actualmente. 
   
@@ -109,21 +109,16 @@ Para la instalación de Odoo se recomendará una VirtualBox previamente descarga
    
   3.5.2.3.	Una vez se clickea a nuevo, se nos presenta esta pantalla principal donde se genera la petición que se estime. En este caso se va a crear la primera petición que se pide de “En progreso”. 
    
-  
   3.5.2.4.	Para ello, se indicaría la solicitud de la petición en “Solicitud” indicando qué es lo que ocurre, se podría añadir como se muestra en la misma pantalla (archivo adjunto), notas, tipo de mantenimiento, duración, prioridad y otras opciones. Para colocarlo en proceso, solo haría falta señalarlo este en la parte superior, y en vez de señalar como “Nueva solicitud”, darle clic a la opción en este caso de “En proceso”.
   
-  
   3.5.2.5.	De tal manera que al darle de nuevo a “Mantenimiento” se nos avisará que hay una petición pendiente (mostrada en la primera captura del archivo adjunto) y al pinchar en esta, se llevaría de nuevo a la ventana principal, donde se puede ver que se encuentra especificado la petición dentro de “En proceso” (segunda captura dentro del archivo adjunto).
-   
   
   3.5.2.6.	Para realizar la segunda petición, se realizará el mismo proceso, pero esta vez, se pinchará en “Reparado” para crear esta petición. 
   
-  
   3.5.2.7.	Otra posibilidad de creación sería, tanto crear una solicitud y arrastrarla en el panel principal hasta “Reparado” o hasta donde se quiera de las diferentes partes como etapas. Y, otra opción que se muestra a continuación que sería, directamente al darle al “+” y escribir directamente la petición. Dando como resultado finalmente, la petición creada. 
   
+  3.5.2.8.	Como se muestra en este último pantallazo (archivo adjunto), ya estaría creada la segunda petición solicitada por la tarea, en este caso en “Reparado”. </br></br>
   
-  3.5.2.8.	Como se muestra en este último pantallazo (archivo adjunto), ya estaría creada la segunda petición solicitada por la tarea, en este caso en “Reparado”. 
-  
-  3.5.3.	Visualiza las peticiones en modo Kanban.
+ <h4> 3.5.3.	Visualiza las peticiones en modo Kanban.</h4>
   A la hora de hablar de la visualización de las peticiones en modo Kanban, estas han sido visualizada anteriormente, puesto que el tablero Kanban es justamente la captura anterior mostrada, y como se ha podido ver en anteriores capturas del módulo “Mantenimiento” donde se podía ver, crear y modificar cada petición. 
     
